@@ -1,0 +1,58 @@
+{
+  "name": "srealm",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "start": "vite preview",
+    "dev": "vite",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [
+    "framework",
+    "typescript",
+    "express",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "description": "SRealm Framework - A lightweight framework for building Node.js applications using TypeScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sarus1997/srealm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarus1997/srealm/issues"
+  },
+  "homepage": "https://github.com/Sarus1997/srealm#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "next": "^15.0.3",
+    "open": "^10.1.0",
+    "react-router-dom": "^7.0.1"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "config/",
+    "model/",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
